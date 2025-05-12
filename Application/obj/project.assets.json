@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Application.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -41,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Application >= 1.0.0"
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/API/API.csproj",
-      "projectName": "API",
-      "projectPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/API/API.csproj",
+      "projectUniqueName": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Application/Application.csproj",
+      "projectName": "Application",
+      "projectPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Application/Application.csproj",
       "packagesPath": "/Users/rickhuang668/.nuget/packages/",
-      "outputPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/API/obj/",
+      "outputPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rickhuang668/.nuget/NuGet/NuGet.Config"
@@ -69,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Application/Application.csproj": {
-              "projectPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Application/Application.csproj"
+            "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/Domain.csproj": {
+              "projectPath": "/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/Domain.csproj"
             }
           }
         }
@@ -102,9 +84,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

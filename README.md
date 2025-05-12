@@ -22,3 +22,5 @@ API: application programming interface, is a set of definitions and protocols th
 
 HTTP status codes: are three-digit numbers returned by a web server in response to a request made by a client. They indicate the outcome of the request and are grouped into different classes, each representing a specific category of response.
 
+Clean Architecture: Testability, UI independency, Free to choose or change the database, Flexibility and Transparency.
+Infrastructure/Presentation -> Application -> Domain
