@@ -1,0 +1,22 @@
+@host = http://localhost
+@port = 5616
+@API_HostAddress = {{host}}:{{port}}
+
+GET {{API_HostAddress}}/api/weatherforecast/
+Accept: application/json
+# LocalDatetime: {{$localDatetime iso8601}}
+
+
+###
+GET {{API_HostAddress}}/api/weatherforecast/currentDay
+Accept: application/json
+
+###
+GET {{API_HostAddress}}/api/weatherforecast/23/example?max=15
+Accept: application/json
+
+###
+POST {{API_HostAddress}}/api/weatherforecast/ 
+Accept: application/json
+
+"Rick"
