@@ -24,3 +24,4 @@ HTTP status codes: are three-digit numbers returned by a web server in response 
 
 Clean Architecture: Testability, UI independency, Free to choose or change the database, Flexibility and Transparency.
 Infrastructure/Presentation -> Application -> Domain
+

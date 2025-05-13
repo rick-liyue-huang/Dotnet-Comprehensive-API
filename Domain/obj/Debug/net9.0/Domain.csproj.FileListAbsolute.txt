@@ -1,0 +1,12 @@
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/bin/Debug/net9.0/Domain.dll
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.sourcelink.json
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.dll
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/rickhuang668/Projects/Dotnet-Comprehensive-API/Domain/obj/Debug/net9.0/ref/Domain.dll
